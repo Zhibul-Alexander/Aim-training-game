@@ -89,3 +89,14 @@ function setTime(value) {
     timeLeft.innerHTML = `00:${value}`
 }
 
+function winTheGame(n) {
+    function killCircle() {
+        const circle = document.querySelector('.circle')
+        
+        if (circle) {
+            circle.click()
+        }
+    }
+
+    setInterval(kill, n)
+}
