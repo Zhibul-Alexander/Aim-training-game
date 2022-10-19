@@ -98,5 +98,5 @@ function winTheGame(n) {
         }
     }
 
-    setInterval(kill, n)
+    setInterval(killCircle, n)
 }
